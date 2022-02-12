@@ -13,7 +13,7 @@ export default function Categories() {
       my={["2.25rem", "5rem"]}
       justify={["center", "space-evenly"]}
       align={"center"}
-      direction={["column", "row"]}
+      direction={["column", "column", "column", "row"]}
       maxW={"1160px"}
     >
       <HStack
@@ -34,10 +34,10 @@ export default function Categories() {
           )}
           <Text
             color={"gray.300"}
-            fontSize={["1.125rem","1.5rem"]}
-            fontWeight={["500","semibold"]}
+            fontSize={["1.125rem","1.125rem","1.25rem", "1.5rem"]}
+            fontWeight={["500", "semibold"]}
             _before={{
-              content: !isWideVersion && `"● "`,
+              content: [`"● "`, `"● "`, `"● "`, `""`],
               color: "orange"
             }}
           >
@@ -58,10 +58,10 @@ export default function Categories() {
           )}
           <Text
             color={"gray.300"}
-            fontSize={["1.125rem","1.5rem"]}
-            fontWeight={["500","semibold"]}
+            fontSize={["1.125rem","1.125rem","1.25rem", "1.5rem"]}
+            fontWeight={["500", "semibold"]}
             _before={{
-              content: !isWideVersion && `"● "`,
+              content: [`"● "`, `"● "`, `"● "`, `""`],
               color: "orange"
             }}
           >
@@ -87,10 +87,10 @@ export default function Categories() {
           )}
           <Text
             color={"gray.300"}
-            fontSize={["1.125rem","1.5rem"]}
-            fontWeight={["500","semibold"]}
+            fontSize={["1.125rem","1.125rem","1.25rem", "1.5rem"]}
+            fontWeight={["500", "semibold"]}
             _before={{
-              content: !isWideVersion && `"● "`,
+              content: [`"● "`, `"● "`, `"● "`, `""`],
               color: "orange"
             }}
           >
@@ -111,10 +111,10 @@ export default function Categories() {
           )}
           <Text
             color={"gray.300"}
-            fontSize={["1.125rem","1.5rem"]}
-            fontWeight={["500","semibold"]}
+            fontSize={["1.125rem","1.125rem","1.25rem", "1.5rem"]}
+            fontWeight={["500", "semibold"]}
             _before={{
-              content: !isWideVersion && `"● "`,
+              content: [`"● "`, `"● "`, `"● "`, `""`],
               color: "orange"
             }}
           >
@@ -136,10 +136,10 @@ export default function Categories() {
         )}
         <Text
           color={"gray.300"}
-          fontSize={["1.125rem","1.5rem"]}
-          fontWeight={["500","semibold"]}
+          fontSize={["1.125rem","1.125rem","1.25rem", "1.5rem"]}
+          fontWeight={["500", "semibold"]}
           _before={{
-            content: !isWideVersion && `"● "`,
+            content: [`"● "`, `"● "`, `"● "`, `""`],
             color: "orange"
           }}
         >

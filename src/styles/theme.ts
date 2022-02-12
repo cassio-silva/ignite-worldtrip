@@ -8,7 +8,7 @@ export const theme = extendTheme({
       "200": "#999999",
       "300": "#47585B",
     },
-    orange: "#FFBA08"
+    orange: "#FFBA08",
   },
   fonts: {
     heading: 'Poppins',
@@ -18,6 +18,9 @@ export const theme = extendTheme({
     global: {
       body: {
         bg: '#fff',
+      },
+      a: {
+        cursor: "pointer"
       }
     }
   },

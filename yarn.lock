@@ -2680,6 +2680,11 @@ react-animate-height@2.0.21:
     classnames "^2.2.5"
     prop-types "^15.6.1"
 
+react-circle-flags@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/react-circle-flags/-/react-circle-flags-0.0.15.tgz#4b69f7b33d8b39475a12d7b18099b511b6e214c2"
+  integrity sha512-RpQj7O3GT5820XttIRovT0OgSytDvxHlskf1cd3uxhAOfDhGT6iaRScdz1IcINLmlsgSWaqJXFSq7tto4VAkcg==
+
 react-clientside-effect@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/react-clientside-effect/-/react-clientside-effect-1.2.5.tgz#e2c4dc3c9ee109f642fac4f5b6e9bf5bcd2219a3"
@@ -2724,6 +2729,11 @@ react-focus-lock@^2.2.1:
     react-clientside-effect "^1.2.5"
     use-callback-ref "^1.2.5"
     use-sidecar "^1.0.5"
+
+react-icons@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.3.1.tgz#2fa92aebbbc71f43d2db2ed1aed07361124e91ca"
+  integrity sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==
 
 react-is@17.0.2:
   version "17.0.2"

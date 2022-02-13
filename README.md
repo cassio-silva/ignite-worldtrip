@@ -3,10 +3,10 @@
 Este projeto é uma aplicação do que aprendemos no capítulo IV do curso ***ignite*** da [@RocketSeat](https://www.rocketseat.com.br/).
 
 ### Conteúdo aprendido
-- [Next.js `_document.tsx`](https://github.com/cassio-silva/ignite-worldtrip/edit/main/README.md#nextjs---configura%C3%A7%C3%A3o-do-arquivo-_document)
-- [Swiper](https://github.com/cassio-silva/ignite-worldtrip/edit/main/README.md#swiper)
-- [Chakra-ui e responsividade](https://github.com/cassio-silva/ignite-worldtrip/edit/main/README.md#chakra-ui-e-responsividade)
-- [Componente Image e propriedade](https://github.com/cassio-silva/ignite-worldtrip/edit/main/README.md#componente-image-e-propriedade-sx)
+- [Next.js `_document.tsx`](https://github.com/cassio-silva/ignite-worldtrip#nextjs---configura%C3%A7%C3%A3o-do-arquivo-_document)
+- [Swiper](https://github.com/cassio-silva/ignite-worldtrip#swiper)
+- [Chakra-ui e responsividade](https://github.com/cassio-silva/ignite-worldtrip#chakra-ui-e-responsividade)
+- [Componente Image e propriedade](https://github.com/cassio-silva/ignite-worldtrip#componente-image-e-propriedade-sx)
 
 Para a inicialização do projeto foi utilizado o seguinte comando, com o template para typescript
 

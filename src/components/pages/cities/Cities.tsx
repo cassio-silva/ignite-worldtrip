@@ -16,6 +16,7 @@ export default function Cities({ cities }: CitiesList) {
 
   return (
     <Flex
+      as="section"
       direction={"column"}
       maxW={"1160px"}
       w={["95%", "100%"]}

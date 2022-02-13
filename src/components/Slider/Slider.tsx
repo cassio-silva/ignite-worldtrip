@@ -9,12 +9,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 export default function Slider() {
-  const router = useRouter();
-
-  const isWideVersion = useBreakpointValue({
-    base: false,
-    lg: true
-  })
 
   SwiperCore.use([Navigation, Pagination]);
 
@@ -63,7 +57,7 @@ export default function Slider() {
               direction={"column"}
               justify={"center"}
               align={"center"}
-              w={["90%", "100%"]}
+              w={["90%","60%"]}
               position={"absolute"}
               as="a"
             >
@@ -90,13 +84,16 @@ export default function Slider() {
             w={"100%"}
             h={"100%"}
             position={"relative"}
+            sx={{
+              filter: 'brightness(0.85)'
+            }}
           />
           <Link href={"/asia"}>
             <Flex
               direction={"column"}
               justify={"center"}
               align={"center"}
-              w={["90%", "100%"]}
+              w={["90%","60%"]}
               position={"absolute"}
               as="a"
             >
@@ -123,13 +120,16 @@ export default function Slider() {
             w={"100%"}
             h={"100%"}
             position={"relative"}
+            sx={{
+              filter: 'brightness(0.6)'
+            }}
           />
           <Link href={"/africa"}>
             <Flex
               direction={"column"}
               justify={"center"}
               align={"center"}
-              w={["90%", "100%"]}
+              w={["90%","60%"]}
               position={"absolute"}
               as="a"
             >
@@ -162,7 +162,7 @@ export default function Slider() {
               direction={"column"}
               justify={"center"}
               align={"center"}
-              w={["90%", "100%"]}
+              w={["90%","60%"]}
               position={"absolute"}
               as="a"
             >
@@ -195,7 +195,7 @@ export default function Slider() {
               direction={"column"}
               justify={"center"}
               align={"center"}
-              w={["90%", "100%"]}
+              w={["90%","60%"]}
               position={"absolute"}
               as="a"
             >
@@ -222,13 +222,16 @@ export default function Slider() {
             w={"100%"}
             h={"100%"}
             position={"relative"}
+            sx={{
+              filter: 'brightness(0.6)'
+            }}
           />
           <Link href={"oceania"}>
             <Flex
               direction={"column"}
               justify={"center"}
               align={"center"}
-              w={["90%", "100%"]}
+              w={["90%","60%"]}
               position={"absolute"}
               as="a"
             >

@@ -1,11 +1,11 @@
 import { Flex, Image, Text } from "@chakra-ui/react";
 
 type HeaderProps = {
-  country: string;
+  continent: string;
   bg: string;
 }
 
-export default function Header({ country, bg }: HeaderProps) {
+export default function Header({ continent, bg }: HeaderProps) {
   return (
     <Flex
       as={"header"}
@@ -27,7 +27,7 @@ export default function Header({ country, bg }: HeaderProps) {
         paddingLeft={["unset", "8.75rem"]}
         paddingBottom={["unset", "3.75rem"]}
       >
-        {country}
+        {continent}
       </Text>
     </Flex>
   )

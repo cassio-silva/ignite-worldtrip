@@ -25,13 +25,13 @@ export default function Asia() {
       country: "Marrocos",
       imgSrc: "/pages/africa/marraquexe.jpg",
       countryCode: "ma"
-    },    
+    },
     {
       name: "Hurgada",
       country: "Egito",
       imgSrc: "/pages/africa/egypt.jpg",
       countryCode: "eg"
-    },    
+    },
   ]
 
   return (
@@ -44,7 +44,7 @@ export default function Asia() {
 
       <Logo />
 
-      <Header country="África" bg="pages/africa/africa.jpg" />
+      <Header continent="África" bg="pages/africa/africa.jpg" />
 
       <Flex
         as={"main"}
@@ -73,16 +73,12 @@ export default function Asia() {
             mais populoso entre os demais.
           </Text>
 
-          <Flex
-            w={["100%", "100%", "45%"]}
-            direction={"row"}
-            justify={"space-between"}
-            align={"center"}
-          >
-            <TextHighlighted number='54' label='países' />
-            <TextHighlighted number='1000+' label='línguas' />
-            <TextHighlighted number='3' label='cidades +100' />
-          </Flex>
+          <TextHighlighted
+            countryAmount={"54"}
+            languageAmount={"1000+"}
+            citiesAmount={"3"}
+          />
+
         </Stack>
 
         <Cities cities={cities} />

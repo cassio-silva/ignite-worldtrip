@@ -74,7 +74,7 @@ export default function Asia() {
 
       <Logo />
 
-      <Header country="Ásia" bg="/pages/asia/china.jpg" />
+      <Header continent="Ásia" bg="/pages/asia/china.jpg" />
 
       <Flex
         as={"main"}
@@ -103,16 +103,12 @@ export default function Asia() {
             abrigando diversas culturas, etnias, religiões e tradições.
           </Text>
 
-          <Flex
-            w={["100%", "100%", "45%"]}
-            direction={"row"}
-            justify={"space-between"}
-            align={"center"}
-          >
-            <TextHighlighted number='49' label='países' />
-            <TextHighlighted number='2,300' label='línguas' />
-            <TextHighlighted number='24' label='cidades +100' />
-          </Flex>
+          <TextHighlighted
+            countryAmount={"49"}
+            languageAmount={"2300"}
+            citiesAmount={"42"}
+          />
+
         </Stack>
 
         <Cities cities={cities} />

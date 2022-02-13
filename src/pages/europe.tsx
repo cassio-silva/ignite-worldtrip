@@ -56,7 +56,7 @@ export default function Europa() {
       </Head>
       <Logo />
 
-      <Header bg='/pages/europe/europe.png' country='Europa' />
+      <Header bg='/pages/europe/europe.png' continent='Europa' />
 
       <Flex
         as={"main"}
@@ -83,17 +83,12 @@ export default function Europa() {
             divide-se da Ásia a leste pela divisória de águas dos montes Urais,
             o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
           </Text>
-
-          <Flex
-            w={["100%", "100%", "45%"]}
-            direction={"row"}
-            justify={"space-between"}
-            align={"center"}
-          >
-            <TextHighlighted number='50' label='países' />
-            <TextHighlighted number='60' label='línguas' />
-            <TextHighlighted number='27' label='cidades +100' />
-          </Flex>
+          
+          <TextHighlighted
+            countryAmount={"50"}
+            languageAmount={"60"}
+            citiesAmount={"27"}
+          />
         </Stack>
 
         <Cities cities={cities} />

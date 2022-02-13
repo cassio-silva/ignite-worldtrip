@@ -49,7 +49,7 @@ Aplicação do Swiper como componente:
 </details>
     
 ## Chakra-ui e Responsividade
-Para tornar um componente Chakra-ui responsivo, basta passar um array com os valores desejados a uma propriedade de um componente:
+Para tornar um componente Chakra-ui responsivo, basta passar um array com os valores desejados à uma propriedade de um componente:
 
 ```javascript
   <Text
@@ -57,3 +57,15 @@ Para tornar um componente Chakra-ui responsivo, basta passar um array com os val
   >
 ```
 Neste exemplo o tamanho da fonte é definida no mobile como `0.875rem` e no Desktop como `1.5rem`, isso funciona com a grande maioria das propriedades dos componentes do Chakra.
+
+## Componente Image e propriedade `sx`
+
+Caso seja necessário aplicar CSS customizado em algum componente ou o componente não possua a propriedade listada, o Chakra-ui conta com a prop `sx` que permite adicionar as propriedades do CSS diretamente. 
+
+```javascript
+  <Image
+    sx={{
+      filter: 'brightness(0.85)'
+    }}
+  />
+```

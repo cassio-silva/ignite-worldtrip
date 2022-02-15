@@ -1,6 +1,6 @@
 # WorldTrip
 
-Este projeto é uma aplicação do que aprendemos no capítulo IV do curso ***ignite*** da [@RocketSeat](https://www.rocketseat.com.br/).
+Este projeto é uma aplicação do que aprendemos no capítulo IV do curso ***ignite*** da [@RocketSeat](https://www.rocketseat.com.br/). O desafio consistia em implementar um design diretamente do Figma de forma responsiva utilizando o Chakra-ui.
 
 ### Conteúdo aprendido
 - [Next.js `_document.tsx`](https://github.com/cassio-silva/ignite-worldtrip#nextjs---configura%C3%A7%C3%A3o-do-arquivo-_document)
